@@ -59,8 +59,9 @@ module.exports = {
       ],
     }),
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "./public/index.html",
       filename: "./index.html",
+      favicon:"./public/favicon.ico",
       meta: {
         description: "About web apps",
       },
