@@ -70,4 +70,4 @@ module.exports = {
     }),
   ],
 };
-console.log("Ready. Here you go!".blue);
+console.log("Ready. Here you go!".rainbow);
