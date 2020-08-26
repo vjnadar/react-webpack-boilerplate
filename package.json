@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-boilerplater",
   "version": "0.1.0",
-  "description": "A simple react project setup using webpack.",
+  "description": "A simple react project setup that uses Webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
