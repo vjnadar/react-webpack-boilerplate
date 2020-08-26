@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.config.js",
-    "start": "webpack-dev-server --config webpack.dev.config.js --hot"
+    "start": "webpack-dev-server --config webpack.dev.config.js --hot",
+    "lint": "eslint src/**/*.js src/**/*.jsx"
   },
   "author": "V.J.Nadar",
   "license": "ISC",
@@ -14,11 +15,14 @@
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "clean-webpack-plugin": "^3.0.0",
     "colors": "^1.4.0",
     "css-loader": "^4.2.1",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
     "file-loader": "^6.0.0",
     "html-loader": "^1.2.0",
     "html-webpack-plugin": "^4.3.0",
