@@ -1,7 +1,9 @@
 const path = require("path");
-// const TerserPlugin = require("terser-webpack-plugin");
+const colors=require("colors");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+colors.enable();
+console.log("Starting the local development server.".yellow);
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -70,3 +72,4 @@ module.exports = {
     }),
   ],
 };
+console.log("Launching...".green);

@@ -1,8 +1,10 @@
 const path = require("path");
-// const TerserPlugin = require("terser-webpack-plugin");
+const colors=require("colors");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+colors.enable();
+console.log("Building the necessary production files. Please wait...".cyan);
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -68,3 +70,4 @@ module.exports = {
     }),
   ],
 };
+console.log("Ready. Here you go!".blue);
