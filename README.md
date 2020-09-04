@@ -8,4 +8,4 @@ A simple react project setup that uses **Webpack**.
 - Seperate development server for the development mode
 - ESLint
 - Sass
-- Easy build script
+- Jest
